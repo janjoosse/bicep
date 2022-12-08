@@ -285,6 +285,12 @@
     <value>Existing resource "{0}" is declared but never used.</value>
     <comment>{0} is the resource name</comment>
   </data>
+  <data name="MaxLengthModuleNameRuleDescription" xml:space="preserve">
+    <value>Module name is exceeding max length.</value>
+  </data>
+  <data name="MaxLengthModuleNameRuleMessageFormat" xml:space="preserve">
+    <value>The name for this module has a length of {0}, which exceeds the maximum of {1}.</value>
+  </data>
   <data name="MaxNumberParametersRuleDescription" xml:space="preserve">
     <value>Maximum number of parameters used.</value>
   </data>

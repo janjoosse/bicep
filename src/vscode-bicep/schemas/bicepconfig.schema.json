@@ -280,6 +280,16 @@
                     }
                   ]
                 },
+                "max-length-module-name": {
+                  "allOf": [
+                    {
+                      "description": "Module name is exceeding max length. See https://aka.ms/bicep/linter/max-length-module-name"
+                    },
+                    {
+                      "$ref": "#/definitions/rule-def-level-error"
+                    }
+                  ]
+                },
                 "max-outputs": {
                   "allOf": [
                     {
